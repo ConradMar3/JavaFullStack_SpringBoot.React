@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ConradMar3/JavaFullStack_SpringBoot.React/issues"
   },
-  "homepage": "https://github.com/ConradMar3/JavaFullStack_SpringBoot.React#readme"
+  "homepage": "https://github.com/ConradMar3/JavaFullStack_SpringBoot.React#readme",
+  "dependencies": {
+    "react": "^18.1.0"
+  }
 }
