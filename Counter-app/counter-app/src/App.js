@@ -1,33 +1,31 @@
 import React, { Component } from 'react';
-//import FirstComponent from './components/learning-examples/FirstComponent';
-//import SecondComponent from './components/learning-examples/SecondComponent';
-//import ThirdComponent from './components/learning-examples/ThirdComponent';
-import Counter from './components/counter/Counter';
+import FirstComponent from './components/learning-examples/FirstComponent'
+import SecondComponent from './components/learning-examples/SecondComponent'
+import ThirdComponent from './components/learning-examples/ThirdComponent'
+import Counter from './components/counter/Counter'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter by={1} />
-        <Counter by={5} />
-        <Counter by={10} />
+        <Counter />
       </div>
     );
   }
 }
 
-/*class LearningComponents extends Component {
+class LearningComponents extends Component {
   render() {
     return (
       <div className="LearningComponents">
-        <h1><strong><i>Hello World!</i></strong></h1>
+        My Hello World
         <FirstComponent></FirstComponent>
         <SecondComponent></SecondComponent>
         <ThirdComponent></ThirdComponent>
       </div>
-    )
+    );
   }
-}*/
+}
 
 export default App;
