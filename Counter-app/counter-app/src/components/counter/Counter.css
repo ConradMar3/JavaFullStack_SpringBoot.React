@@ -1,12 +1,21 @@
 button {
-    background-color: rgb(17, 145, 0);
+    background-color: green;
     font-size: 16px;
     padding: 15px 30px;
-    color: aliceblue;
+    color: white;
     width: 100px;
 }
 
 .count {
     font-size: 50px;
+    padding: 15px 30px;
+}
+
+.reset {
+    background-color: red;
+    width: 200px;
+}
+
+body {
     padding: 15px 30px;
 }
