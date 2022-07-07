@@ -6,7 +6,7 @@ class Counter extends Component {
 
     constructor() {
 
-        super(); //Error 1
+        super();
 
         this.state = {
             counter: 0
@@ -34,7 +34,6 @@ class Counter extends Component {
     }
 
     increment(by) {
-        //console.log(`increment from child - ${by}`)
         this.setState(
             (prevState) => {
                 return { counter: prevState.counter + by }
@@ -43,7 +42,6 @@ class Counter extends Component {
     }
 
     decrement(by) {
-        //console.log(`increment from child - ${by}`)
         this.setState(
             (prevState) => {
                 return { counter: prevState.counter - by }
@@ -68,14 +66,10 @@ class CounterButton extends Component {
     }
 
     render() {
-        //render = () =>  {
-        //const style = {fontSize : "50px", padding : "15px 30px"};
         return (
             <div className="counter">
                 <button onClick={() => this.props.incrementMethod(this.props.by)} >+{this.props.by}</button>
                 <button onClick={() => this.props.decrementMethod(this.props.by)} >-{this.props.by}</button>
-                {/*<span className="count" 
-            >{this.state.counter}</span>*/}
             </div>
         )
     }
